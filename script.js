@@ -30,6 +30,18 @@ document.getElementById('italic').addEventListener('click', function(){
  document.getElementById('input-color').onchange = function(){
            text.style.color = this.value;
  }
+ 
+ document.getElementById('number-field').onclick = function(){
+           const numberValue  = this.value;
+            const numberInPx = numberValue + 'px'
+           text.style.fontSize = numberInPx ;
+          
+ }
+
+
+ 
+ 
+
 
 
 
